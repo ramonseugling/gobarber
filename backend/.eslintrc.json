@@ -18,6 +18,8 @@
         "prettier"
     ],
     "rules": {
+      "prettier/prettier": "error",
+      "class-methods-use-this": "off",
       "no-use-before-define": "off",
       "@typescript-eslint/no-use-before-define": [
         "error"
@@ -28,8 +30,7 @@
         {
           "ts": "never"
         }
-      ],
-      "prettier/prettier": "error"
+      ]
     },
     "settings": {
       "import/resolver": {
